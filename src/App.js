@@ -1,6 +1,6 @@
 /* eslint react/destructuring-assignment: 0 */
 import React from 'react';
-import { Button } from 'antd';
+// import { Button } from 'antd';
 import {
   BrowserRouter as Router,
   Route,
@@ -30,9 +30,9 @@ const App = () => (
         {/* <Route exact path="/:pid" component={MovieList} /> */}
         <Route exact path="/:id" component={MovieDetail} />
       </Switch>
-      <Link to="/:pid">
+      {/* <Link to="/:pid">
         <Button type="primary">Next</Button>
-      </Link>
+      </Link> */}
     </div>
   </Router>
 );
